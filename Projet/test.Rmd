@@ -1,0 +1,75 @@
+```{r}
+library(readxl)
+
+# Spécifiez le chemin vers votre fichier Excel
+file_path <- "ozone.xls"
+
+# Lire la première feuille du fichier Excel
+data <- read_xls(file_path, sheet = 1)
+
+# Afficher les premières lignes du data frame importé
+head(data)
+
+```
+
+### Statistique descriptive
+
+```{r}
+summary(data)
+```
+
+### Visualisation des données
+
+```{r}
+pairs(data)
+```
+
+Comme on peut le voir ci-dessus, les nuages de points pour chaque paire de variables entre la variable expliquée maxO3 et les variables explicatives sauf Ne9, Ne12 et Ne15 montre une relation plus ou moins linéaire.
+
+```{r}
+# Charger les packages nécessaires
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+# Spécifiez le chemin vers votre fichier CSV
+file_path <- "molecule.csv"
+
+# Lire le fichier CSV
+data <- read_csv(file_path)
+
+# Créer des QQ-plots pour chaque groupe
+ggplot(data, aes(sample = mesure)) +
+  geom_qq() +
+  geom_qq_line() +
+  facet_wrap(~ traitement, scales = "free") +
+  labs(title = "QQ-plots par groupe de traitement", x = "Quantiles théoriques", y = "Quantiles échantillon")
+
+# Test de normalité (Shapiro-Wilk) par groupe
+shapiro_test_results <- data %>%
+  group_by(traitement) %>%
+  summarize(
+    shapiro_p_value = shapiro.test(mesure)$p.value
+  )
+
+# Afficher les résultats du test de Shapiro-Wilk
+print(shapiro_test_results)
+
+# Test de Student (t-test)
+t_test_result <- t.test(mesure ~ traitement, data = data)
+
+# Afficher les résultats du t-test
+print(t_test_result)
+# Test de Levene pour l'homogénéité des variances
+library(readr)
+library(dplyr)
+library(car)
+leveneTest(mesure ~ traitement, data = data)
+
+# Effectuer l'ANOVA
+anova_model <- aov(mesure ~ traitement, data = data)
+
+# Afficher le résumé de l'ANOVA
+summary(anova_model)
+
+```

@@ -1,0 +1,30 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Exercice I}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Énoncé}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Visualisation des données et formulation d'une hypothèse}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Choix du test à réaliser}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Vérification des conditions d'application}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Indépendance}{5}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Exclusivité des classes}{5}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Règle de Cochran}{5}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Conclusion}{5}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Exercice II}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Énoncé}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Statistiques descriptives}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Test statistique}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Vérification des conditions d'application}{7}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Indépendance}{7}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Normalité}{7}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Égalité des variances}{7}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Conclusion}{8}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Exercice III}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Énoncé}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Statistique descriptive}{9}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Tableau résumant les statistiques descriptives}{9}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Visualisation des données}{9}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Modélisation}{10}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Élimination de l'information redondante dans notre modèle}{13}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Vérification de la surdispersion dans notre modèle}{14}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Sélection de modèle}{14}{subsubsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.4}Conclusion}{20}{subsection.4.4}%
